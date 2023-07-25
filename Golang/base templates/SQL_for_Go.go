@@ -1,5 +1,6 @@
 package main
 
+//The template is made to interact with a Mysql database deployed on the basis of an Open Server.
 import (
 	"database/sql"
 	_ "database/sql"
