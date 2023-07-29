@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4370c6b-52d0-4285-ae0c-2e7a47c23baa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/random.go" beforeDir="false" afterPath="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/random.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../Program Files/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -135,12 +139,12 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/project_preparing_for_an_interview/Templates-for-all-occasions/Golang/Сreating5X5arrayWithRandomNumbers",
+    "last_opened_file_path": "C:/Users/KorvinPC/GolandProjects/Templates-for-all-occasions/Golang/Сreating5X5arrayWithRandomNumbers",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build Сreating5X5arrayWithRandomNumbers.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,6 +193,23 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="Templates-for-all-occasions" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Templates-for-all-occasions" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Сreating5X5arrayWithRandomNumbers.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Templates-for-all-occasions" />
       <working_directory value="$PROJECT_DIR$" />
@@ -197,12 +218,38 @@
       <filePath value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/Сreating5X5arrayWithRandomNumbers.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Сreating5X5arrayWithRandomNumbers.go main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Templates-for-all-occasions" />
+      <working_directory value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers.go|$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Сreating5X5arrayWithRandomNumbers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Templates-for-all-occasions" />
       <working_directory value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers.go" />
+      <filePath value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/Сreating5X5arrayWithRandomNumbers.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Templates-for-all-occasions" />
+      <working_directory value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers" />
+      <kind value="PACKAGE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Golang/Сreating5X5arrayWithRandomNumbers/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Templates-for-all-occasions" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="Templates for tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -305,13 +352,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build Сreating5X5arrayWithRandomNumbers.go (1)" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Build.go build Сreating5X5arrayWithRandomNumbers.go" />
+      <item itemvalue="Go Build.go build Сreating5X5arrayWithRandomNumbers.go main.go" />
       <item itemvalue="Python.Templates for tkinter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Сreating5X5arrayWithRandomNumbers.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build " />
+        <item itemvalue="Go Build.go build Сreating5X5arrayWithRandomNumbers.go main.go" />
         <item itemvalue="Go Build.go build Сreating5X5arrayWithRandomNumbers.go" />
       </list>
     </recent_temporary>

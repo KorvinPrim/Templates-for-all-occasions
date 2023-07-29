@@ -30,12 +30,41 @@ func (i GetUniRandIntInp) Validate() error {
 }
 
 type Randomizer struct {
-	userIntegers map[int]bool
+	uniqueIntegers map[int]bool
 }
 
 func NewRandomizer() *Randomizer {
 	rand.Seed(time.Now().Unix())
 	return &Randomizer{
-		userIntegers: make(map[int]bool),
+		uniqueIntegers: make(map[int]bool),
 	}
+}
+
+func (r *Randomizer) reset() {
+	r.uniqueIntegers = make(map[int]bool)
+}
+
+func (r *Randomizer) GetUniqueRandomIntegers(input GetUniRandIntInp) ([]int, error) {
+	if err := input.Validate(); err != nil {
+		return nil, err
+	}
+
+	r.reset()
+
+	numbersCount := input.SizeX * input.SizeY
+	result := make([]int, 0)
+
+	for len(r.uniqueIntegers) < numbersCount {
+		r.uniqueIntegers[r.getRandomInt(input.RandomLimit)] = true
+	}
+
+	for num := range r.uniqueIntegers {
+		result = append(result, num)
+	}
+
+	return result, nil
+}
+
+func (r *Randomizer) getRandomInt(limit int) int {
+	return rand.Intn(limit)
 }
