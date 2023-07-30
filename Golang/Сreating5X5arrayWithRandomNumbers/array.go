@@ -2,7 +2,6 @@ package main
 
 import (
 	"errors"
-	"fmt"
 )
 
 type IntArray struct {
@@ -38,22 +37,9 @@ func (a *IntArray) Fill(valuses []int) error {
 	return nil
 }
 
-func (a *IntArray) get() ([][]int, error) {
+func (a *IntArray) Get() ([][]int, error) {
 	if a.arr == nil {
 		return nil, errors.New("array is not filled with values")
 	}
 	return a.arr, nil
-}
-
-func (a *IntArray) Print() error {
-	arr, err := a.get()
-
-	if err != nil {
-		return err
-	}
-
-	for rowIndex, rows := range arr {
-		fmt.Printf("%v. %v\n", rowIndex+1, rows)
-	}
-	return nil
 }
