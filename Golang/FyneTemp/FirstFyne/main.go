@@ -6,6 +6,7 @@ The first application program implemented on Fine. A calculator that allows you 
 
 import (
 	"fmt"
+	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/widget"
@@ -15,6 +16,7 @@ import (
 func main() {
 	a := app.New()
 	w := a.NewWindow("Почти калькулятор")
+	w.Resize(fyne.NewSize(400, 350))
 
 	label1 := widget.NewLabel("Введите первое число")
 	first_num := widget.NewEntry()
@@ -94,3 +96,5 @@ func main() {
 
 	w.ShowAndRun()
 }
+
+//fyne package -os windows -icon myapp.png
