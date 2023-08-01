@@ -1,0 +1,1 @@
+The first application program implemented on Fine. A calculator that allows you to perform basic arithmetic calculations.
