@@ -4,7 +4,8 @@ package main
 The code implementation focuses on creating a versatile menu system
 in Go using the Fine library.
 
-It enables the creation of a main menu for your application,
+I
+t enables the creation of a main menu for your application,
 along with child menus and buttons. By leveraging the Go language
 and Fine library, developers com seamlessly structure and organize
 menus, define menu item actions, and handle user interactions.
