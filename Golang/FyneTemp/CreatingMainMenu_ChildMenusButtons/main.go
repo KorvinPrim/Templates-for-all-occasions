@@ -47,9 +47,46 @@ func main() {
 	info_item1 := fyne.NewMenuItem("Hello", func() { fmt.Println("Hello from menu!") })
 	info_item2 := fyne.NewMenuItem("Bye", func() { fmt.Println("Bye from menu!") })
 	info_item3 := fyne.NewMenuItem("Button", func() { fmt.Println("Button from menu!") })
-	info_item4 := fyne.NewMenuItem("Button", func() { fmt.Println("Button from menu!") })
-	info_item5 := fyne.NewMenuItem("Button", func() { fmt.Println("Button from menu!") })
-	info_item6 := fyne.NewMenuItem("Button", func() { fmt.Println("Button from menu!") })
+	info_item4 := fyne.NewMenuItem("About", nil)
+	info_item5 := fyne.NewMenuItem("More", nil)
+	info_item6 := fyne.NewMenuItem("Some", nil)
+
+	info_item4.ChildMenu = fyne.NewMenu("",
+		fyne.NewMenuItem("Print", func() {
+			fmt.Println("Print")
+		}),
+		fyne.NewMenuItem("Print2", func() {
+			fmt.Println("Print2")
+		}),
+		fyne.NewMenuItem("Print3", func() {
+			fmt.Println("Print3")
+		}),
+	)
+
+	info_item5.ChildMenu = fyne.NewMenu("",
+		fyne.NewMenuItem("Print", func() {
+			fmt.Println("Print")
+		}),
+		fyne.NewMenuItem("Print2", func() {
+			fmt.Println("Print2")
+		}),
+		fyne.NewMenuItem("Print3", func() {
+			fmt.Println("Print3")
+		}),
+	)
+
+	info_item6.ChildMenu = fyne.NewMenu("",
+		fyne.NewMenuItem("Print", func() {
+			fmt.Println("Print")
+		}),
+		fyne.NewMenuItem("Print2", func() {
+			fmt.Println("Print2")
+		}),
+		fyne.NewMenuItem("Print3", func() {
+			fmt.Println("Print3")
+		}),
+	)
+
 	menu3 := fyne.NewMenu("Info",
 		info_item1,
 		info_item2,
