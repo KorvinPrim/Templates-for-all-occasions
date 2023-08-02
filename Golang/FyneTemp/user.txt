@@ -1,0 +1,4 @@
+Имя пользователя: User1
+Пароль: Pass123
+Email: User@gmail.com
+Дополнительная информация: User info
